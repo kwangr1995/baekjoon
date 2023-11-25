@@ -1,5 +1,5 @@
 public class QuickStart {
-    public static void main(String[] args) {
+    public static void test1(String[] args) {
         String x = "1234";
         System.out.println(x);
 
@@ -8,6 +8,10 @@ public class QuickStart {
 
         System.out.println(abcd + abcd); //abcd에 할당된 값 두 번 더하기
         System.out.println(efgh); //efgh 값 출력
+    }
+
+    public static void test2(String[] args) {
+
     }
 }
 
