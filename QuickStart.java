@@ -7,7 +7,7 @@ public class QuickStart {
         String efgh  = "faker"; //efgh를 문자형으로 설정, faker 할당
 
         System.out.println(abcd + abcd); //abcd에 할당된 값 두 번 더하기
-        System.out.println(efgh); //efgh 값 출력
+        system.out.println(efgh); //efgh 값 출력
     }
 
     public static void test2(String[] args) {
