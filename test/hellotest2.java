@@ -22,6 +22,7 @@ public class hellotest2 {
         System.out.println();
         System.out.print("3 ");
         System.out.print("4");
+        System.out.printf("이름은 %s, 나이는%d살 입니다.", "홍길동", 28);
     }
     
 }
