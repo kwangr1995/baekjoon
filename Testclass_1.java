@@ -1,12 +1,29 @@
 import java.util.Scanner;
+
 public class Testclass_1 {
     public static void main(String[] args) {
-        System.out.println("첫번째 입력 : ");
-		Scanner scan = new Scanner(System.in);
-		String name = scan.next();
-		System.out.println("두번째 입력 : ");
-		String name2 = scan.next();
-		System.out.println((name.equals(name2))?"이름이 같음":"이름이 다름" );
-		scan.close();
+        
+		int [][] num = {
+			{1,2,3},
+			{4,5,6},
+			{7,8}
+		};
+
+		//값을 출력하기
+		for(int i=0; i<num.length; i++){
+			for(int j=0; j < num[i].length; j++){
+				System.out.println("num[" + i + "][" + j + "]" + num[i][j]);
+			}
+		}
+
+		//전체 합을 구하기
+		int sum = 0;
+
+		for(int i=0; i < num.length; i++){
+			for(int j=0; j< num[i].length; j++){
+				sum += num[i][j];
+			}
+		}
+		System.out.println(sum);
     }
 }
