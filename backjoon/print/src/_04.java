@@ -5,7 +5,7 @@
  * 1. A와 B 입력
  * 2. A/B연산
  * 3. A/B출력
- * 
+ * cf) 부동소수점 문제
  */
 
 import java.math.BigDecimal;
