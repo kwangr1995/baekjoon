@@ -1,3 +1,4 @@
+package BaekJoon_08_18108;
 import java.util.Scanner;
 
 public class _08_18108 { 
