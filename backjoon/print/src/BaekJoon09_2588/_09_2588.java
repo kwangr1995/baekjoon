@@ -1,3 +1,4 @@
+package BaekJoon09_2588;
 /* 
  * 1. 두 정수 입력
  * 2. 두번째 입력된 정수를 배열 형태로 전환
@@ -18,6 +19,7 @@ public class _09_2588 {
         
         int a = scan.nextInt();
         String b = scan.next();
+        // String b = scan.nextLine(); 이 코드였을 때 에러 발생
 
         scan.close();
 
