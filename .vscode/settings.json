@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "backjoon/print/src",
+        "backjoon/01_print/src",
+        "02_conditional_statement"
+    ]
+}
