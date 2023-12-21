@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class _06_15552 {
+public class _07_11021 {
 
     public static void main(String[] args) throws IOException{
         BufferedReader  br = new BufferedReader(new InputStreamReader(System.in));
@@ -26,7 +26,7 @@ public class _06_15552 {
 
             int sum = a+b;
 
-            bw.write(Integer.toString(sum) + "\n");
+            bw.write("Case #" + (i+1) + ": " + Integer.toString(sum) + "\n");
         }
         bw.flush();
         br.close();
